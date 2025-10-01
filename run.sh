@@ -1,4 +1,4 @@
-#!bin/sh
+#!/bin/sh
 
 if [ "$(docker ps -aq -f name=daily-tg-bot)" ]; then
     echo "Removing existing container: daily-tg-bot"

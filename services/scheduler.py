@@ -1,7 +1,7 @@
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from datetime import timezone
 from config.settings import CHAT_ID
-from services.grok_service import generate_message
+from services.service import generate_message
 import logging
 
 

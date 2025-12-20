@@ -1,7 +1,7 @@
 from aiogram import Router, types
 from aiogram.filters import Command
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from services.grok_service import generate_message
+from services.service import generate_message
 
 router = Router()
 
